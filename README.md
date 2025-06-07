@@ -135,6 +135,41 @@ O painel administrativo está disponível em: http://127.0.0.1:8000/admin/
    - Salva o resultado no banco de dados
 5. Os resultados ficam disponíveis via API REST e painel administrativo
 
+## 💡 Potencial e Versatilidade
+
+Este projeto demonstra um exemplo simples de consulta de preços de ações, mas o poder do Django combinado com Celery vai muito além:
+
+### Possibilidades de Tarefas Assíncronas
+
+- **Processamento de Dados em Lote**: Tratamento de grandes volumes de dados sem impactar a experiência do usuário
+- **Geração de Relatórios**: Criação de relatórios complexos em background
+- **Integração com APIs Externas**: Comunicação com múltiplos serviços sem bloqueio
+- **Envio de E-mails em Massa**: Notificações e campanhas de marketing
+- **Processamento de Mídia**: Conversão, compressão e análise de imagens e vídeos
+- **Machine Learning**: Execução de modelos de predição e classificação
+- **Web Scraping em Escala**: Coleta automatizada de dados de múltiplas fontes
+- **Sincronização com Sistemas Externos**: Integração com ERPs, CRMs e outros sistemas
+
+### Benefícios do Agendamento
+
+O sistema de agendamento do Celery Beat permite:
+- Execução periódica de tarefas (minutos, horas, dias)
+- Agendamento baseado em expressões cron
+- Execução em horários específicos (fora do horário comercial)
+- Distribuição de carga em horários de menor tráfego
+- Tarefas recorrentes com diferentes prioridades
+
+### Escalabilidade
+
+A arquitetura distribuída permite:
+- Executar workers em diferentes máquinas
+- Escalar horizontalmente conforme a demanda
+- Separar workers por tipos de tarefas
+- Implementar balanceamento de carga
+- Monitoramento e recuperação automática de falhas
+
+Este exemplo simples demonstra os fundamentos da computação distribuída com Django e Celery, mas as possibilidades são praticamente ilimitadas para construir sistemas robustos, escaláveis e de alta performance.
+
 ## 📝 Tarefas Suportadas
 
 - **get_stock_price**: Consulta o preço de uma ação específica usando Selenium
