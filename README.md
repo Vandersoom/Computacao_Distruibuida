@@ -1,4 +1,4 @@
-# Celery2 - Sistema Distribuído com Django e Celery
+# Celery - Sistema Distribuído com Django e Celery
 
 Um sistema de processamento distribuído para consulta de preços de ações em tempo real utilizando Django, Celery e RabbitMQ.
 
